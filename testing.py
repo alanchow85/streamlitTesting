@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.rout("/")
+@app.route("/")
 def index():
     return "Congrats, it is a web app!"
 
